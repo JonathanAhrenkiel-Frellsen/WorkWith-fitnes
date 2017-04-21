@@ -1,0 +1,6 @@
+framework module Pods_KomITEksamen {
+  umbrella header "Pods-KomITEksamen-umbrella.h"
+
+  export *
+  module * { export * }
+}
