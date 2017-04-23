@@ -14,6 +14,11 @@
 		6121820B1EAA042600AF841E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6121820A1EAA042600AF841E /* Assets.xcassets */; };
 		6121820E1EAA042600AF841E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6121820C1EAA042600AF841E /* LaunchScreen.storyboard */; };
 		612182181EAA061800AF841E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 612182171EAA061800AF841E /* GoogleService-Info.plist */; };
+		61533DA91EACD82600ADDB1B /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */; };
+		61533DAB1EACD88900ADDB1B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAA1EACD88900ADDB1B /* LogInViewController.swift */; };
+		61533DAD1EACD89A00ADDB1B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */; };
+		61533DAF1EACD8AD00ADDB1B /* YourProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */; };
+		61533DB41EACD8FC00ADDB1B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DB31EACD8FC00ADDB1B /* TableViewController.swift */; };
 		F3A996DA34108641597CCA6A /* Pods_KomITEksamen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +33,11 @@
 		6121820D1EAA042600AF841E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6121820F1EAA042600AF841E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		612182171EAA061800AF841E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		61533DAA1EACD88900ADDB1B /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourProfileViewController.swift; sourceTree = "<group>"; };
+		61533DB31EACD8FC00ADDB1B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7AAE86139C1D1FE0CC71DAC6 /* Pods-KomITEksamen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomITEksamen.release.xcconfig"; path = "Pods/Target Support Files/Pods-KomITEksamen/Pods-KomITEksamen.release.xcconfig"; sourceTree = "<group>"; };
 		F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KomITEksamen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,16 +83,61 @@
 		612182001EAA042600AF841E /* KomITEksamen */ = {
 			isa = PBXGroup;
 			children = (
-				612182171EAA061800AF841E /* GoogleService-Info.plist */,
+				61533DB01EACD8C800ADDB1B /* findEvent */,
+				61533DA71EACD7FB00ADDB1B /* register */,
+				61533DA61EACD7F400ADDB1B /* login */,
+				61533DA51EACD7E800ADDB1B /* yourProfile */,
+				61533DA41EACD7DB00ADDB1B /* createEvent */,
 				612182011EAA042600AF841E /* AppDelegate.swift */,
 				612182031EAA042600AF841E /* FirstViewController.swift */,
 				612182051EAA042600AF841E /* SecondViewController.swift */,
-				612182071EAA042600AF841E /* Main.storyboard */,
 				6121820A1EAA042600AF841E /* Assets.xcassets */,
+				612182071EAA042600AF841E /* Main.storyboard */,
 				6121820C1EAA042600AF841E /* LaunchScreen.storyboard */,
 				6121820F1EAA042600AF841E /* Info.plist */,
+				612182171EAA061800AF841E /* GoogleService-Info.plist */,
 			);
 			path = KomITEksamen;
+			sourceTree = "<group>";
+		};
+		61533DA41EACD7DB00ADDB1B /* createEvent */ = {
+			isa = PBXGroup;
+			children = (
+				61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */,
+			);
+			name = createEvent;
+			sourceTree = "<group>";
+		};
+		61533DA51EACD7E800ADDB1B /* yourProfile */ = {
+			isa = PBXGroup;
+			children = (
+				61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */,
+			);
+			name = yourProfile;
+			sourceTree = "<group>";
+		};
+		61533DA61EACD7F400ADDB1B /* login */ = {
+			isa = PBXGroup;
+			children = (
+				61533DAA1EACD88900ADDB1B /* LogInViewController.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		61533DA71EACD7FB00ADDB1B /* register */ = {
+			isa = PBXGroup;
+			children = (
+				61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */,
+			);
+			name = register;
+			sourceTree = "<group>";
+		};
+		61533DB01EACD8C800ADDB1B /* findEvent */ = {
+			isa = PBXGroup;
+			children = (
+				61533DB31EACD8FC00ADDB1B /* TableViewController.swift */,
+			);
+			name = findEvent;
 			sourceTree = "<group>";
 		};
 		92F6FDADF731737AA78F4629 /* Pods */ = {
@@ -221,7 +276,12 @@
 			files = (
 				612182061EAA042600AF841E /* SecondViewController.swift in Sources */,
 				612182021EAA042600AF841E /* AppDelegate.swift in Sources */,
+				61533DAF1EACD8AD00ADDB1B /* YourProfileViewController.swift in Sources */,
+				61533DB41EACD8FC00ADDB1B /* TableViewController.swift in Sources */,
 				612182041EAA042600AF841E /* FirstViewController.swift in Sources */,
+				61533DAD1EACD89A00ADDB1B /* RegisterViewController.swift in Sources */,
+				61533DAB1EACD88900ADDB1B /* LogInViewController.swift in Sources */,
+				61533DA91EACD82600ADDB1B /* CreateEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,11 @@ target 'KomITEksamen' do
 
   # Pods for KomITEksamen
 
-  pod 'Firebase/Core'
+  pod 'Bolts'
+  pod ‘Firebase’
+  pod ‘Firebase/Database’
+  pod ‘Firebase/Auth’
+  pod ‘FBSDKLoginKit’
+  pod 'SwiftKeychainWrapper' 
 
 end
