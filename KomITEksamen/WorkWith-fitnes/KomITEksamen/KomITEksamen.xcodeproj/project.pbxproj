@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612182021EAA042600AF841E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612182011EAA042600AF841E /* AppDelegate.swift */; };
+		612182041EAA042600AF841E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612182031EAA042600AF841E /* FirstViewController.swift */; };
+		612182061EAA042600AF841E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612182051EAA042600AF841E /* SecondViewController.swift */; };
+		612182091EAA042600AF841E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612182071EAA042600AF841E /* Main.storyboard */; };
+		6121820B1EAA042600AF841E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6121820A1EAA042600AF841E /* Assets.xcassets */; };
+		6121820E1EAA042600AF841E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6121820C1EAA042600AF841E /* LaunchScreen.storyboard */; };
+		612182181EAA061800AF841E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 612182171EAA061800AF841E /* GoogleService-Info.plist */; };
+		61533DA91EACD82600ADDB1B /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */; };
+		61533DAB1EACD88900ADDB1B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAA1EACD88900ADDB1B /* LogInViewController.swift */; };
+		61533DAD1EACD89A00ADDB1B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */; };
+		61533DAF1EACD8AD00ADDB1B /* YourProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */; };
+		61533DB41EACD8FC00ADDB1B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DB31EACD8FC00ADDB1B /* TableViewController.swift */; };
+		F3A996DA34108641597CCA6A /* Pods_KomITEksamen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F10E3A614CC576F00659FF7 /* Pods-KomITEksamen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomITEksamen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KomITEksamen/Pods-KomITEksamen.debug.xcconfig"; sourceTree = "<group>"; };
+		612181FE1EAA042600AF841E /* KomITEksamen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KomITEksamen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		612182011EAA042600AF841E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		612182031EAA042600AF841E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		612182051EAA042600AF841E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		612182081EAA042600AF841E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6121820A1EAA042600AF841E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6121820D1EAA042600AF841E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6121820F1EAA042600AF841E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612182171EAA061800AF841E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		61533DAA1EACD88900ADDB1B /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourProfileViewController.swift; sourceTree = "<group>"; };
+		61533DB31EACD8FC00ADDB1B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7AAE86139C1D1FE0CC71DAC6 /* Pods-KomITEksamen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomITEksamen.release.xcconfig"; path = "Pods/Target Support Files/Pods-KomITEksamen/Pods-KomITEksamen.release.xcconfig"; sourceTree = "<group>"; };
+		F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KomITEksamen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		612181FB1EAA042500AF841E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A996DA34108641597CCA6A /* Pods_KomITEksamen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191000325CE0CF5A684D33BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612181F51EAA042500AF841E = {
+			isa = PBXGroup;
+			children = (
+				612182001EAA042600AF841E /* KomITEksamen */,
+				612181FF1EAA042600AF841E /* Products */,
+				92F6FDADF731737AA78F4629 /* Pods */,
+				191000325CE0CF5A684D33BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		612181FF1EAA042600AF841E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612181FE1EAA042600AF841E /* KomITEksamen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		612182001EAA042600AF841E /* KomITEksamen */ = {
+			isa = PBXGroup;
+			children = (
+				61533DB01EACD8C800ADDB1B /* findEvent */,
+				61533DA71EACD7FB00ADDB1B /* register */,
+				61533DA61EACD7F400ADDB1B /* login */,
+				61533DA51EACD7E800ADDB1B /* yourProfile */,
+				61533DA41EACD7DB00ADDB1B /* createEvent */,
+				612182011EAA042600AF841E /* AppDelegate.swift */,
+				612182031EAA042600AF841E /* FirstViewController.swift */,
+				612182051EAA042600AF841E /* SecondViewController.swift */,
+				6121820A1EAA042600AF841E /* Assets.xcassets */,
+				612182071EAA042600AF841E /* Main.storyboard */,
+				6121820C1EAA042600AF841E /* LaunchScreen.storyboard */,
+				6121820F1EAA042600AF841E /* Info.plist */,
+				612182171EAA061800AF841E /* GoogleService-Info.plist */,
+			);
+			path = KomITEksamen;
+			sourceTree = "<group>";
+		};
+		61533DA41EACD7DB00ADDB1B /* createEvent */ = {
+			isa = PBXGroup;
+			children = (
+				61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */,
+			);
+			name = createEvent;
+			sourceTree = "<group>";
+		};
+		61533DA51EACD7E800ADDB1B /* yourProfile */ = {
+			isa = PBXGroup;
+			children = (
+				61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */,
+			);
+			name = yourProfile;
+			sourceTree = "<group>";
+		};
+		61533DA61EACD7F400ADDB1B /* login */ = {
+			isa = PBXGroup;
+			children = (
+				61533DAA1EACD88900ADDB1B /* LogInViewController.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		61533DA71EACD7FB00ADDB1B /* register */ = {
+			isa = PBXGroup;
+			children = (
+				61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */,
+			);
+			name = register;
+			sourceTree = "<group>";
+		};
+		61533DB01EACD8C800ADDB1B /* findEvent */ = {
+			isa = PBXGroup;
+			children = (
+				61533DB31EACD8FC00ADDB1B /* TableViewController.swift */,
+			);
+			name = findEvent;
+			sourceTree = "<group>";
+		};
+		92F6FDADF731737AA78F4629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F10E3A614CC576F00659FF7 /* Pods-KomITEksamen.debug.xcconfig */,
+				7AAE86139C1D1FE0CC71DAC6 /* Pods-KomITEksamen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		612181FD1EAA042500AF841E /* KomITEksamen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612182121EAA042600AF841E /* Build configuration list for PBXNativeTarget "KomITEksamen" */;
+			buildPhases = (
+				5939E1B8BCCE6A12483C5952 /* [CP] Check Pods Manifest.lock */,
+				612181FA1EAA042500AF841E /* Sources */,
+				612181FB1EAA042500AF841E /* Frameworks */,
+				612181FC1EAA042500AF841E /* Resources */,
+				D97F3EDF0D9A6CC364A9000C /* [CP] Embed Pods Frameworks */,
+				FEF08EE10BA2A7E608C2A304 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KomITEksamen;
+			productName = KomITEksamen;
+			productReference = 612181FE1EAA042600AF841E /* KomITEksamen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		612181F61EAA042500AF841E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = skycode;
+				TargetAttributes = {
+					612181FD1EAA042500AF841E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CL86NSTDV4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 612181F91EAA042500AF841E /* Build configuration list for PBXProject "KomITEksamen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 612181F51EAA042500AF841E;
+			productRefGroup = 612181FF1EAA042600AF841E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				612181FD1EAA042500AF841E /* KomITEksamen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		612181FC1EAA042500AF841E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6121820E1EAA042600AF841E /* LaunchScreen.storyboard in Resources */,
+				612182181EAA061800AF841E /* GoogleService-Info.plist in Resources */,
+				6121820B1EAA042600AF841E /* Assets.xcassets in Resources */,
+				612182091EAA042600AF841E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5939E1B8BCCE6A12483C5952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D97F3EDF0D9A6CC364A9000C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KomITEksamen/Pods-KomITEksamen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF08EE10BA2A7E608C2A304 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KomITEksamen/Pods-KomITEksamen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		612181FA1EAA042500AF841E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612182061EAA042600AF841E /* SecondViewController.swift in Sources */,
+				612182021EAA042600AF841E /* AppDelegate.swift in Sources */,
+				61533DAF1EACD8AD00ADDB1B /* YourProfileViewController.swift in Sources */,
+				61533DB41EACD8FC00ADDB1B /* TableViewController.swift in Sources */,
+				612182041EAA042600AF841E /* FirstViewController.swift in Sources */,
+				61533DAD1EACD89A00ADDB1B /* RegisterViewController.swift in Sources */,
+				61533DAB1EACD88900ADDB1B /* LogInViewController.swift in Sources */,
+				61533DA91EACD82600ADDB1B /* CreateEventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		612182071EAA042600AF841E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612182081EAA042600AF841E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6121820C1EAA042600AF841E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6121820D1EAA042600AF841E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		612182101EAA042600AF841E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		612182111EAA042600AF841E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		612182131EAA042600AF841E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F10E3A614CC576F00659FF7 /* Pods-KomITEksamen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CL86NSTDV4;
+				INFOPLIST_FILE = KomITEksamen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skycode.KomITEksamen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		612182141EAA042600AF841E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAE86139C1D1FE0CC71DAC6 /* Pods-KomITEksamen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CL86NSTDV4;
+				INFOPLIST_FILE = KomITEksamen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skycode.KomITEksamen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		612181F91EAA042500AF841E /* Build configuration list for PBXProject "KomITEksamen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612182101EAA042600AF841E /* Debug */,
+				612182111EAA042600AF841E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612182121EAA042600AF841E /* Build configuration list for PBXNativeTarget "KomITEksamen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612182131EAA042600AF841E /* Debug */,
+				612182141EAA042600AF841E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 612181F61EAA042500AF841E /* Project object */;
+}
