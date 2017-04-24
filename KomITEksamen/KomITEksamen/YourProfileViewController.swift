@@ -14,8 +14,6 @@ class YourProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let ref = FIRDatabase.database().reference()
-        
         // Do any additional setup after loading the view.
     }
 

@@ -12,6 +12,6 @@ target 'KomITEksamen' do
   pod ‘Firebase/Database’
   pod ‘Firebase/Auth’
   pod ‘FBSDKLoginKit’
-  pod 'SwiftKeychainWrapper' 
+  # pod 'SwiftKeychainWrapper'
 
 end
