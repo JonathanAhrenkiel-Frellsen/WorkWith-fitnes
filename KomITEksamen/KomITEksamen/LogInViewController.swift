@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import FirebaseAuth
+import SwiftKeychainWrapper
 
 class LogInViewController: UIViewController {
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +26,26 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func LogIn(_ sender: Any) {
-        performSegue(withIdentifier: "LogIn", sender: nil)
+        if let email = emailTextField.text, let pwd = passwordTextField.text {
+            FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: {(user, error) in
+                if error == nil {
+                    print("Email user authenticated with Firebase")
+                    
+                    if let user = user {
+                        let userData = ["provider": user.providerID]
+                        self.completeSignIn(id: user.uid, userData: userData)
+                        self.performSegue(withIdentifier: "LogIn", sender: nil)
+                    }
+                }
+            })
+        }
+    }
+    
+    func completeSignIn(id: String, userData: Dictionary<String, String>) {
+        DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
+        let keychainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
+        print("Data saved to the keychain \(keychainResult)")
+        
     }
     
     @IBAction func register(_ sender: Any) {

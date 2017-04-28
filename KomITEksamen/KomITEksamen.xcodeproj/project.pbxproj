@@ -19,6 +19,12 @@
 		61533DAD1EACD89A00ADDB1B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */; };
 		61533DAF1EACD8AD00ADDB1B /* YourProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */; };
 		61533DB41EACD8FC00ADDB1B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61533DB31EACD8FC00ADDB1B /* TableViewController.swift */; };
+		61644BD71EAF492D00150D6C /* PartnerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61644BD61EAF492D00150D6C /* PartnerDetailViewController.swift */; };
+		61644BDB1EB0F99F00150D6C /* CelenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61644BDA1EB0F99F00150D6C /* CelenderViewController.swift */; };
+		61CDEAC31EAE0F0A004ADFF0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEAC21EAE0F0A004ADFF0 /* Constants.swift */; };
+		61CDEAC61EAE0FC8004ADFF0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEAC51EAE0FC8004ADFF0 /* DataService.swift */; };
+		61CDEAC81EAE7540004ADFF0 /* FindPartnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEAC71EAE7540004ADFF0 /* FindPartnerTableViewCell.swift */; };
+		61CDEACB1EAE79AF004ADFF0 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEACA1EAE79AF004ADFF0 /* UsersModel.swift */; };
 		F3A996DA34108641597CCA6A /* Pods_KomITEksamen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +44,12 @@
 		61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		61533DAE1EACD8AD00ADDB1B /* YourProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourProfileViewController.swift; sourceTree = "<group>"; };
 		61533DB31EACD8FC00ADDB1B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		61644BD61EAF492D00150D6C /* PartnerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerDetailViewController.swift; sourceTree = "<group>"; };
+		61644BDA1EB0F99F00150D6C /* CelenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelenderViewController.swift; sourceTree = "<group>"; };
+		61CDEAC21EAE0F0A004ADFF0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		61CDEAC51EAE0FC8004ADFF0 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		61CDEAC71EAE7540004ADFF0 /* FindPartnerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPartnerTableViewCell.swift; sourceTree = "<group>"; };
+		61CDEACA1EAE79AF004ADFF0 /* UsersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
 		7AAE86139C1D1FE0CC71DAC6 /* Pods-KomITEksamen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomITEksamen.release.xcconfig"; path = "Pods/Target Support Files/Pods-KomITEksamen/Pods-KomITEksamen.release.xcconfig"; sourceTree = "<group>"; };
 		F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KomITEksamen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,11 +95,10 @@
 		612182001EAA042600AF841E /* KomITEksamen */ = {
 			isa = PBXGroup;
 			children = (
-				61533DB01EACD8C800ADDB1B /* findEvent */,
-				61533DA71EACD7FB00ADDB1B /* register */,
-				61533DA61EACD7F400ADDB1B /* login */,
-				61533DA51EACD7E800ADDB1B /* yourProfile */,
-				61533DA41EACD7DB00ADDB1B /* createEvent */,
+				61CDEAC91EAE799D004ADFF0 /* Models */,
+				61CDEAC41EAE0F88004ADFF0 /* Service */,
+				61CDEAC11EAE0ED2004ADFF0 /* util */,
+				61644BD81EB0F93E00150D6C /* Controllers */,
 				612182011EAA042600AF841E /* AppDelegate.swift */,
 				612182031EAA042600AF841E /* FirstViewController.swift */,
 				612182051EAA042600AF841E /* SecondViewController.swift */,
@@ -98,14 +109,6 @@
 				612182171EAA061800AF841E /* GoogleService-Info.plist */,
 			);
 			path = KomITEksamen;
-			sourceTree = "<group>";
-		};
-		61533DA41EACD7DB00ADDB1B /* createEvent */ = {
-			isa = PBXGroup;
-			children = (
-				61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */,
-			);
-			name = createEvent;
 			sourceTree = "<group>";
 		};
 		61533DA51EACD7E800ADDB1B /* yourProfile */ = {
@@ -128,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				61533DAC1EACD89A00ADDB1B /* RegisterViewController.swift */,
+				61533DA81EACD82600ADDB1B /* CreateEventViewController.swift */,
 			);
 			name = register;
 			sourceTree = "<group>";
@@ -136,8 +140,56 @@
 			isa = PBXGroup;
 			children = (
 				61533DB31EACD8FC00ADDB1B /* TableViewController.swift */,
+				61CDEAC71EAE7540004ADFF0 /* FindPartnerTableViewCell.swift */,
+				61644BD61EAF492D00150D6C /* PartnerDetailViewController.swift */,
 			);
 			name = findEvent;
+			sourceTree = "<group>";
+		};
+		61644BD81EB0F93E00150D6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61644BD91EB0F98700150D6C /* celender */,
+				61533DB01EACD8C800ADDB1B /* findEvent */,
+				61533DA71EACD7FB00ADDB1B /* register */,
+				61533DA61EACD7F400ADDB1B /* login */,
+				61533DA51EACD7E800ADDB1B /* yourProfile */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		61644BD91EB0F98700150D6C /* celender */ = {
+			isa = PBXGroup;
+			children = (
+				61644BDA1EB0F99F00150D6C /* CelenderViewController.swift */,
+			);
+			name = celender;
+			sourceTree = "<group>";
+		};
+		61CDEAC11EAE0ED2004ADFF0 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				61CDEAC21EAE0F0A004ADFF0 /* Constants.swift */,
+			);
+			name = util;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		61CDEAC41EAE0F88004ADFF0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				61CDEAC51EAE0FC8004ADFF0 /* DataService.swift */,
+			);
+			name = Service;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		61CDEAC91EAE799D004ADFF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61CDEACA1EAE79AF004ADFF0 /* UsersModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		92F6FDADF731737AA78F4629 /* Pods */ = {
@@ -274,14 +326,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61644BD71EAF492D00150D6C /* PartnerDetailViewController.swift in Sources */,
 				612182061EAA042600AF841E /* SecondViewController.swift in Sources */,
 				612182021EAA042600AF841E /* AppDelegate.swift in Sources */,
+				61CDEACB1EAE79AF004ADFF0 /* UsersModel.swift in Sources */,
 				61533DAF1EACD8AD00ADDB1B /* YourProfileViewController.swift in Sources */,
 				61533DB41EACD8FC00ADDB1B /* TableViewController.swift in Sources */,
+				61644BDB1EB0F99F00150D6C /* CelenderViewController.swift in Sources */,
+				61CDEAC81EAE7540004ADFF0 /* FindPartnerTableViewCell.swift in Sources */,
 				612182041EAA042600AF841E /* FirstViewController.swift in Sources */,
 				61533DAD1EACD89A00ADDB1B /* RegisterViewController.swift in Sources */,
 				61533DAB1EACD88900ADDB1B /* LogInViewController.swift in Sources */,
 				61533DA91EACD82600ADDB1B /* CreateEventViewController.swift in Sources */,
+				61CDEAC31EAE0F0A004ADFF0 /* Constants.swift in Sources */,
+				61CDEAC61EAE0FC8004ADFF0 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
