@@ -25,6 +25,11 @@
 		61CDEAC61EAE0FC8004ADFF0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEAC51EAE0FC8004ADFF0 /* DataService.swift */; };
 		61CDEAC81EAE7540004ADFF0 /* FindPartnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEAC71EAE7540004ADFF0 /* FindPartnerTableViewCell.swift */; };
 		61CDEACB1EAE79AF004ADFF0 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEACA1EAE79AF004ADFF0 /* UsersModel.swift */; };
+		DE5A06061EB7E4EB005BEA62 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A06011EB7E4EB005BEA62 /* FancyView.swift */; };
+		DE5A06071EB7E4EB005BEA62 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A06021EB7E4EB005BEA62 /* RoundedButton.swift */; };
+		DE5A06081EB7E4EB005BEA62 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A06031EB7E4EB005BEA62 /* FancyField.swift */; };
+		DE5A06091EB7E4EB005BEA62 /* FancySignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A06041EB7E4EB005BEA62 /* FancySignInButton.swift */; };
+		DE5A060A1EB7E4EB005BEA62 /* FancyLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A06051EB7E4EB005BEA62 /* FancyLogo.swift */; };
 		F3A996DA34108641597CCA6A /* Pods_KomITEksamen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +56,11 @@
 		61CDEAC71EAE7540004ADFF0 /* FindPartnerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPartnerTableViewCell.swift; sourceTree = "<group>"; };
 		61CDEACA1EAE79AF004ADFF0 /* UsersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
 		7AAE86139C1D1FE0CC71DAC6 /* Pods-KomITEksamen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomITEksamen.release.xcconfig"; path = "Pods/Target Support Files/Pods-KomITEksamen/Pods-KomITEksamen.release.xcconfig"; sourceTree = "<group>"; };
+		DE5A06011EB7E4EB005BEA62 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		DE5A06021EB7E4EB005BEA62 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		DE5A06031EB7E4EB005BEA62 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		DE5A06041EB7E4EB005BEA62 /* FancySignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancySignInButton.swift; sourceTree = "<group>"; };
+		DE5A06051EB7E4EB005BEA62 /* FancyLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyLogo.swift; sourceTree = "<group>"; };
 		F55D818097E8C1B1BC96E40F /* Pods_KomITEksamen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KomITEksamen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,6 +105,7 @@
 		612182001EAA042600AF841E /* KomITEksamen */ = {
 			isa = PBXGroup;
 			children = (
+				DE5A060B1EB7E4F2005BEA62 /* View */,
 				61CDEAC91EAE799D004ADFF0 /* Models */,
 				61CDEAC41EAE0F88004ADFF0 /* Service */,
 				61CDEAC11EAE0ED2004ADFF0 /* util */,
@@ -199,6 +210,18 @@
 				7AAE86139C1D1FE0CC71DAC6 /* Pods-KomITEksamen.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE5A060B1EB7E4F2005BEA62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE5A06011EB7E4EB005BEA62 /* FancyView.swift */,
+				DE5A06021EB7E4EB005BEA62 /* RoundedButton.swift */,
+				DE5A06031EB7E4EB005BEA62 /* FancyField.swift */,
+				DE5A06041EB7E4EB005BEA62 /* FancySignInButton.swift */,
+				DE5A06051EB7E4EB005BEA62 /* FancyLogo.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61644BD71EAF492D00150D6C /* PartnerDetailViewController.swift in Sources */,
+				DE5A06081EB7E4EB005BEA62 /* FancyField.swift in Sources */,
 				612182061EAA042600AF841E /* SecondViewController.swift in Sources */,
 				612182021EAA042600AF841E /* AppDelegate.swift in Sources */,
 				61CDEACB1EAE79AF004ADFF0 /* UsersModel.swift in Sources */,
@@ -337,6 +361,10 @@
 				612182041EAA042600AF841E /* FirstViewController.swift in Sources */,
 				61533DAD1EACD89A00ADDB1B /* RegisterViewController.swift in Sources */,
 				61533DAB1EACD88900ADDB1B /* LogInViewController.swift in Sources */,
+				DE5A06071EB7E4EB005BEA62 /* RoundedButton.swift in Sources */,
+				DE5A06091EB7E4EB005BEA62 /* FancySignInButton.swift in Sources */,
+				DE5A06061EB7E4EB005BEA62 /* FancyView.swift in Sources */,
+				DE5A060A1EB7E4EB005BEA62 /* FancyLogo.swift in Sources */,
 				61533DA91EACD82600ADDB1B /* CreateEventViewController.swift in Sources */,
 				61CDEAC31EAE0F0A004ADFF0 /* Constants.swift in Sources */,
 				61CDEAC61EAE0FC8004ADFF0 /* DataService.swift in Sources */,
